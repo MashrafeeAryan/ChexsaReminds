@@ -18,7 +18,7 @@ export default function SignUpPage({ navigate }) {
 
       <div className={styles.card}>
         <div className={styles.logo}>ChexsaReminds</div>
-        <p className={styles.subtitle}>Create an account — it's free & quick 🎉</p>
+        <p className={styles.subtitle}>Create an account</p>
 
         <div className={styles.field}>
           <label className={styles.label}>Your name</label>

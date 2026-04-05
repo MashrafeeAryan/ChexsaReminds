@@ -78,7 +78,7 @@ export default function LandingPage({ navigate }) {
       <section className={styles.how} id="how">
         <h2 className={styles.howTitle}>How it works</h2>
         <div className={styles.steps}>
-          {['Write your message', 'Set a date & time', 'Choose how we reach you', 'We remind you — done!'].map((s, i) => (
+          {['Write your message', 'Set a date & time', 'Choose how we reach you', 'We remind you!'].map((s, i) => (
             <div key={i} className={styles.stepWrap}>
               <div className={styles.step}>
                 <div className={styles.stepNum}>{i + 1}</div>
@@ -93,7 +93,7 @@ export default function LandingPage({ navigate }) {
       {/* Footer CTA */}
       <section className={styles.footerCta}>
         <h2>Ready to stop forgetting?</h2>
-        <button className={styles.btnPrimary} onClick={() => navigate('signup')}>Get started — it's free</button>
+        <button className={styles.btnPrimary} onClick={() => navigate('signup')}>Get started for free</button>
         <button className={styles.btnGhost} onClick={() => navigate('reminder')}>Try as guest first</button>
       </section>
     </div>
