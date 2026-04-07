@@ -1,6 +1,7 @@
 const express = require("express"); // import Express (web server)
 const cors = require("cors");       // allows frontend to talk to backend
-
+//MongoDB connection
+const mongoose = require("mongoose")
 const app = express(); // create the server
 
 // middleware (runs before routes)
